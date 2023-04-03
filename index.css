@@ -22,6 +22,12 @@ h5 {
   --phan-hoi-color: rgb(236, 231, 241);
   --cursive-font: "Dancing Script", cursive;
 }
+.text-hover:hover {
+  color: red;
+}
+.active-now {
+  color: red;
+}
 .phan-hoi {
   background-color: var(--phan-hoi-color);
 }
