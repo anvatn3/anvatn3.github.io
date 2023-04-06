@@ -12,6 +12,28 @@ h5 {
   white-space: nowrap;
   width: 300px;
 }
+
+.fieldset .field .field-input-wrapper .field-input {
+  box-shadow: 0 0 0 1px #d9d9d9;
+  transition: all 0.2s ease-out;
+  background-color: white;
+  color: #333333;
+  border-radius: 4px;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.3em;
+  /* padding: 0.94em 2.8em 0.94em 0.8em; */
+  word-break: normal;
+}
+.step-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+
+  align-items: center;
+  margin-top: 1.5em;
+}
 :root {
   --main-color: #e8e4dc;
   --sub-color: #f09c0b;
